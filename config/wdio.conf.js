@@ -1,5 +1,3 @@
-const { join } = require('path');
-
 exports.config = {
     // ====================
     // Runner and framework
@@ -49,7 +47,7 @@ exports.config = {
         }]],
 
     specs: [
-        './tests/features/*.feature',
+        './tests/features/Checkout.feature',
     ],
 
     // ============

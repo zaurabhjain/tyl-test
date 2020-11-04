@@ -1,3 +1,4 @@
+@Checkout
 Feature: Online shopping application
 
 

@@ -4,7 +4,7 @@ const globalTestData = require('../testdata/globalTestData');
 
 
 Given(/^User navigates to Saucelabs demo app$/, function () {
-    browser.url("https://www.saucedemo.com");
+    browser.url(globalTestData.getField('appURL'));
 });
 
 Given(/^Login using valid credentials$/, function () {

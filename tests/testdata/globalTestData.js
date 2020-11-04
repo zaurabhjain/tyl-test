@@ -3,6 +3,7 @@ var globalTestData = function () {
   this.testData = {
     username: 'standard_user',
     password: 'secret_sauce',
+    appURL: 'https://www.saucedemo.com'
   };
 
   this.setField = function (field, value) {
